@@ -5,7 +5,7 @@ Before building, you may change the grid width/height and the number of iteratio
 The program then needs to be built using the makefile.
 Finally, upon executing, the program outputs the world's grid in terminal. An example of the output is provided below.
 
-Iteration : 22/200
+Iteration : 22/200 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
 . . . . . . . . . . . . . . . . . . . X . . . . . . . . . X X . . . . . . . . .  
