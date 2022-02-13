@@ -9,10 +9,6 @@ main.o : main.cpp game_logic.hpp
 
 game_logic.o : game_logic.hpp
 
-# $@ represents the name of the target
-# $< represents the first prerequisite required to create output file
-# they are automatic variable
-
 clean:
 	@echo " *** CLEANING *** "
 	@/bin/rm -f *.o *.x *.c~ *.h~ *.h.gch
