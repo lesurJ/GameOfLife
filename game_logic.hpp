@@ -7,6 +7,11 @@
 #include <iostream>
 using namespace std;
 
+#define NEIGHBORS 8
+#define WIDTH 40
+#define HEIGHT 20
+#define NB_ITER 200
+
 // Get the states of the 8 neighbors around pos in grid g 
 vector<bool> getNeighborStates(vector<int> g, int pos);
 
@@ -17,9 +22,9 @@ vector<int> emptyGrid();
 vector<int> randomGrid();
 
 // Take a step according to the rules
-void logic(vector<int>* prev_grid, vector<int>* grid);
+void logic(vector<int>& prev_grid, vector<int>& grid);
 
-// Display the grid in terminal : for debugging
+// Display the grid in terminal
 void displayGridInTerminal(vector<int> grid);
 
 #endif
